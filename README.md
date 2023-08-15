@@ -53,4 +53,4 @@
 	-agora o sistema está livre de “D20’s”
 
 1.7
-	
+	-esquiva e bloqueio adicionados em COMBATE
