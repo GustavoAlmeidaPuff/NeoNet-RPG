@@ -54,3 +54,5 @@
 
 1.7
 	-esquiva e bloqueio adicionados em COMBATE
+	-pericia "reflexo" adicionada
+	-regras em relação ao oq ganha ao subir de nivel mudadas em "pregrassão e melhorias" nas regras gerais
