@@ -1,3 +1,5 @@
+protótipo
+
 1.0:
 	-livro base
 
@@ -55,6 +57,18 @@
 1.7
 	-esquiva e bloqueio adicionados em COMBATE
 	-pericia "reflexo" adicionada
-	-regras em relação ao oq ganha ao subir de nivel mudadas em "pregrassão e melhorias" nas regras gerais
+	-regras em relação ao oq ganha ao subir de nivel mudadas em "pregrassão e melhorias" nas regras gerais (vão ser mudadas)
 	-"flexiilidade" do sistema declarada
 	-livro titular do neonet primeira edição foi criado
+
+
+lívro
+
+1.0.0
+	-livro criado e capa feita
+
+1.0.2
+	-introdução ao livro feita
+
+1.0.3
+	-artes adicionadas
