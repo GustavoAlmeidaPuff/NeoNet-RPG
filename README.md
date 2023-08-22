@@ -61,6 +61,9 @@ protótipo
 	-"flexiilidade" do sistema declarada
 	-livro titular do neonet primeira edição foi criado
 
+1.7.5
+	-Carisma mudado para "Moral"
+
 
 lívro
 
@@ -72,3 +75,6 @@ lívro
 
 1.0.3
 	-artes adicionadas
+
+1.0.5
+	-Carisma mudado para "Coral"
