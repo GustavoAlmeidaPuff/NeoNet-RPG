@@ -77,4 +77,8 @@ lívro
 	-artes adicionadas
 
 1.0.5
-	-Carisma mudado para "Coral"
+	-Carisma mudado para "moral"
+
+1.0.6
+	-sumário
+	-atribudos bem escritos e especificados
