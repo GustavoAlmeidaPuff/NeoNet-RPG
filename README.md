@@ -64,7 +64,7 @@
 1.7.5
 	-Carisma mudado para "Moral"
 
-1.7.5
+1.8
 	-remoção total das classes do sistema
 
 lívro
