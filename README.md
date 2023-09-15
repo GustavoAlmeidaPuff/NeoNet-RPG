@@ -84,3 +84,8 @@ lívro
 1.0.6
 	-sumário
 	-atribudos bem escritos e especificados
+
+1.1
+	-exemplo de sumário adicionado temporáriamente
+	-perícias e gabarito de calculos da pericia explicados
+	-perícias adicionadas com a descrição o uso e exemplos de uso
