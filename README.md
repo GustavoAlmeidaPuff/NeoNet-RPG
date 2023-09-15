@@ -1,4 +1,4 @@
-protótipo
+#Protótipo
 
 1.0:
 	-livro base
@@ -64,6 +64,8 @@ protótipo
 1.7.5
 	-Carisma mudado para "Moral"
 
+1.8
+	-remoção total das classes do sistema
 
 lívro
 
