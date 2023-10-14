@@ -1,0 +1,9 @@
+th, td {
+    padding: 4px;
+    text-align: left;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+}
