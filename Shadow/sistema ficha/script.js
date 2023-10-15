@@ -42,8 +42,15 @@ document.getElementById('inputSabedoria').innerHTML = Sabedoria;
 var Moral = Number(window.prompt('Moral'))
 document.getElementById('inputMoral').innerHTML = Moral;
 
-//CÁLCULO PERÍCIAS
-var perícia = {
+//CÁLCULOS
+var atributos = {
+    //pv, san, ca e desloc
+    PV: Constituição * 6,
+    san: Math.ceil(((Sabedoria + Intelecto) *2) + 10),
+    CA: Math.ceil(((Força + Destreza) / 2) + 4),
+    deslocamento: Math.ceil((Destreza / 2) + 6),
+
+    //perícias
     hacking: Intelecto,
     engenhariadesistemas: Intelecto,
     medicina: Sabedoria,
@@ -65,25 +72,30 @@ var perícia = {
 };
 
 //MANDAR AS PERÍCIAS PARA A TABELA
-document.getElementById('HACKING').innerHTML = perícia.hacking;
-document.getElementById('ENGENHARIA').innerHTML = perícia.engenhariadesistemas;
-document.getElementById('MEDICINA').innerHTML = perícia.medicina;
-document.getElementById('PERSUASÃO').innerHTML = perícia.persuasão;
-document.getElementById('INVESTIGAÇÃO').innerHTML = perícia.investigação;
-document.getElementById('ACROBACIA').innerHTML = perícia.acrobacia;
-document.getElementById('ATLETISMO').innerHTML = perícia.atletismo;
-document.getElementById('PERCEPÇÃO').innerHTML = perícia.percepção;
-document.getElementById('INTUIÇÃO').innerHTML = perícia.intuição;
-document.getElementById('INTIMIDAÇÃO').innerHTML = perícia.intimidação;
-document.getElementById('ARTES').innerHTML = perícia.artes;
-document.getElementById('ARREMESSAR').innerHTML = perícia.arremessar;
-document.getElementById('EMPURRAR').innerHTML = perícia.empurrar;
-document.getElementById('VONTADE').innerHTML = perícia.vontade;
-document.getElementById('PESQUISA').innerHTML = perícia.pesquisa;
-document.getElementById('PILOTAGEM').innerHTML = perícia.Pilotagem;
-document.getElementById('DESARME').innerHTML = perícia.desarme;
-document.getElementById('FURTIVIDADE').innerHTML = perícia.furtividade;
+document.getElementById('HACKING').innerHTML = atributos.hacking;
+document.getElementById('ENGENHARIA').innerHTML = atributos.engenhariadesistemas;
+document.getElementById('MEDICINA').innerHTML = atributos.medicina;
+document.getElementById('PERSUASÃO').innerHTML = atributos.persuasão;
+document.getElementById('INVESTIGAÇÃO').innerHTML = atributos.investigação;
+document.getElementById('ACROBACIA').innerHTML = atributos.acrobacia;
+document.getElementById('ATLETISMO').innerHTML = atributos.atletismo;
+document.getElementById('PERCEPÇÃO').innerHTML = atributos.percepção;
+document.getElementById('INTUIÇÃO').innerHTML = atributos.intuição;
+document.getElementById('INTIMIDAÇÃO').innerHTML = atributos.intimidação;
+document.getElementById('ARTES').innerHTML = atributos.artes;
+document.getElementById('ARREMESSAR').innerHTML = atributos.arremessar;
+document.getElementById('EMPURRAR').innerHTML = atributos.empurrar;
+document.getElementById('VONTADE').innerHTML = atributos.vontade;
+document.getElementById('PESQUISA').innerHTML = atributos.pesquisa;
+document.getElementById('PILOTAGEM').innerHTML = atributos.Pilotagem;
+document.getElementById('DESARME').innerHTML = atributos.desarme;
+document.getElementById('FURTIVIDADE').innerHTML = atributos.furtividade;
 
+//mandar pv, ca , san, e desloc para a tabela
+document.getElementById('inputPV').innerHTML = atributos.PV;
+document.getElementById('inputSanidade').innerHTML = atributos.san;
+document.getElementById('inputCA').innerHTML = atributos.CA;
+document.getElementById('inputDeslocamento').innerHTML = atributos.deslocamento;
 
 /*
 var hacking= Intelecto

@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
 th, td {
     padding: 5px;
     text-align: left;
@@ -6,18 +12,18 @@ th, td {
 
 main{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: flex-start;
 }
 
 table{
     background-color: rgb(226, 226, 226);
     display: flex;
     justify-content: center;
+    margin: 10px;
 }
 
 img{
-    width: 800px;
-    height: 800px;
-    box-shadow: 100px;
+    width: 1072px;
+    height: 1072px;
     
 }
