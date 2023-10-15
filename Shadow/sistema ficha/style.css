@@ -1,9 +1,23 @@
 th, td {
-    padding: 4px;
+    padding: 5px;
     text-align: left;
+    background-color: rgb(242, 242, 242);
 }
 
 main{
     display: flex;
+    justify-content: space-evenly;
+}
+
+table{
+    background-color: rgb(226, 226, 226);
+    display: flex;
     justify-content: center;
+}
+
+img{
+    width: 800px;
+    height: 800px;
+    box-shadow: 100px;
+    
 }
