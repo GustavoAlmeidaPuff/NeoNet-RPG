@@ -96,23 +96,3 @@ document.getElementById('inputPV').innerHTML = atributos.PV;
 document.getElementById('inputSanidade').innerHTML = atributos.san;
 document.getElementById('inputCA').innerHTML = atributos.CA;
 document.getElementById('inputDeslocamento').innerHTML = atributos.deslocamento;
-
-/*
-var hacking= Intelecto
-var engenhariadesistemas = Intelecto
-var medicina= Sabedoria
-var persuasão= Moral
-var investigação =  Sabedoria + Intelecto
-var acrobacia= Destreza
-var atletismo= destreza
-var percepção= Sabedoria + Destreza
-var intuição= Sabedoria
-var intimidação= Moral
-var artes= Sabedoria
-var arremessar= Força
-var empurrar= Força
-var vontade= Sabedoria + Constituição
-var pesquisa= Intelecto
-var Pilotagem= Destreza
-var desarme= Força + Destreza
-var furtividade=  Destreza*/
