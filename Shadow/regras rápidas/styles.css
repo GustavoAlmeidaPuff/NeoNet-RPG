@@ -1,0 +1,19 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  .rules {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  h1, h2 {
+    color: #333;
+  }
+  
+  .highlight {
+    color: #f00;
+    text-decoration: underline;
+  }
+  
