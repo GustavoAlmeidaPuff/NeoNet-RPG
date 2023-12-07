@@ -25,7 +25,7 @@ header{
 
 /*menu*/
 
-    .menu-sobre{
+    .menu-ficha{
         text-decoration: none;
         margin-right: 3px;
         margin-left: 50px;
@@ -36,7 +36,7 @@ header{
         border-radius: 6px;
     }
 
-    .menu-sobre:hover{    
+    .menu-ficha:hover{    
         font-size: 155%;
         transition: .3s;
         border: none;
@@ -63,3 +63,26 @@ header{
     }
 
 /*menu*/
+
+th, td {
+    padding: 5px;
+    text-align: left;
+    background-color: rgb(242, 242, 242);
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+table{
+    background-color: rgb(226, 226, 226);
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    box-shadow: 7px 10px 10px rgba(0, 0, 0, 0.564);
+}
+

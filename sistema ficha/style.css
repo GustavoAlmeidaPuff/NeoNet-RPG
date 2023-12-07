@@ -12,7 +12,10 @@ th, td {
 
 main{
     display: flex;
-    justify-content: flex-start;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 table{
